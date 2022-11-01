@@ -23,6 +23,6 @@ class Program
         height = Convert.ToDouble(Console.ReadLine());
 
         volume = (length * width * height) / 3;
-        Console.WriteLine("\nThe volume is: " + volume.ToString("0.00") + " cm². ");
+        Console.WriteLine("\nThe volume is: " + volume.ToString("0.00") + " cm³. ");
     }
 }
